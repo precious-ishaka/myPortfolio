@@ -40,11 +40,8 @@ const Navbar = () => {
           
           </a>
 
-          {/* Contact */}
-          <button className='px-4 py-2 cursor-pointer rounded-full bg-linear-to-r from-purple-500 via-pink-500 to-purple-600 text-white hover:scale-105 transition'>Contact Me</button>
-
           {/* Theme Toggle */}
-          <button onClick={toggleTheme} className="text-xl">
+          <button onClick={toggleTheme} className="text-xl cursor-pointer">
             {theme === "light" ? <MdDarkMode /> : <CiLight />}
           </button>
 

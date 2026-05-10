@@ -10,7 +10,7 @@ import java from './java.png'
 import express from './icons8-express-js-50.svg'
 import linkUp from "./linkUp.jpeg"
 import authFlow from "./authFlow.png"
-
+import books from "./books.jpg"
 import mongodb from './icons8-mongodb-50.png'
 import springboot from './icons8-spring-boot-50.svg'
 import typescript from './icons8-typescript.svg'
@@ -42,9 +42,11 @@ const skillsImages = [
 const projects = [{id: 1,
    link: "https://github.com/precious-ishaka/AuthFlow", 
    name:"AuthFlow", 
-   description:"The Purpose of this Web application is mainly for protecting routes in Angular using the Route Guard and Express.js as The backend for authenticating a user with Jwt token", Tech_Stack:["Angular", "Express.JS", "PostgreSQL"], image: authFlow},
-{id: 2, link: "https://github.com/precious-ishaka/Books-API", name:"Books API", description:"", Tech_Stack:["Java", "PostgreSQL", "Spring Book"], image: authFlow},
-{id: 3, link: "https://github.com/precious-ishaka/LinkUp", name:"LinkUp", description:"", Tech_Stack:["React Native"], image:linkUp},
+   description:"The Purpose of this Web application is mainly for protecting routes in Angular using the Route Guard and Express.js as The backend for authenticating a user with JWT", Tech_Stack:["Angular", "Express.JS", "PostgreSQL"], image: authFlow},
+{id: 2, link: "https://github.com/precious-ishaka/Books-API", 
+   name:"Books API", description:"Created An endpoint that is role-based that only Admins are allowed to Post, Update and Delete while Users are only allowed to Get a specific book from the data base including JWT for Authentication",
+    Tech_Stack:[ "Spring Boot",  "PostgreSQL"], image: books},
+{id: 3, link: "https://github.com/precious-ishaka/LinkUp", name:"LinkUp", description:"New To mobile Development So I Created A UI Of A Chat Application With Different Routes, Just Frontend Specifically", Tech_Stack:["React Native"], image:linkUp},
 
 ]
 

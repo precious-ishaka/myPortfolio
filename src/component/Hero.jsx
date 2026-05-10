@@ -51,7 +51,7 @@ const Hero = () => {
             <span className="bg-linear-to-r from-purple-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
               ISHAKA PRECIOUS
             </span>
-            , Full-Stack Developer Based In Nigeria.
+            , Software Developer Based In Nigeria.
           </h1>
 
           <p

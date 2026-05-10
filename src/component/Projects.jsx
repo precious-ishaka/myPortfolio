@@ -46,9 +46,7 @@ export default function Projects() {
 
         {/* Heading */}
         <div ref={titleRef} className="mb-16 space-y-3">
-          <p className="text-sm font-semibold tracking-widest text-purple-400 uppercase opacity-0">
-            Portfolio
-          </p>
+         
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold opacity-0">
             Things I've{" "}
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-indigo-400 bg-clip-text text-transparent">
@@ -56,8 +54,8 @@ export default function Projects() {
             </span>
           </h1>
           <p className="text-gray-400 text-base max-w-xl leading-relaxed opacity-0">
-            A curated set of projects across frontend, backend, and mobile —
-            built with modern tools and a focus on real-world usability.
+          A Set Of Projects Across Frontend, Backend, And Mobile
+          Built With Modern Tools.
           </p>
         </div>
 
@@ -115,12 +113,8 @@ function ProjectCard({ project, featured }) {
       `}
       style={{ willChange: "transform" }}
     >
-      {/* Featured badge */}
-      {featured && (
-        <span className="absolute top-4 left-4 z-10 text-xs font-semibold tracking-wider uppercase px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30">
-          ✦ Featured
-        </span>
-      )}
+    
+     
 
       {/* Image */}
       <div className="overflow-hidden aspect-video bg-zinc-800/50">

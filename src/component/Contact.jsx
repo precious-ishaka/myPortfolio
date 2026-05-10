@@ -51,8 +51,7 @@ const Contact = () => {
     e.preventDefault();
     setStatus("sending");
 
-    // Replace with your actual form endpoint (e.g. Formspree, EmailJS, etc.)
-    // Simulating a network request here:
+    
     await new Promise((res) => setTimeout(res, 1500));
     setStatus("sent");
     setFormData({ name: "", email: "", message: "" });
@@ -97,7 +96,7 @@ const Contact = () => {
             {
               icon: github,
               label: "GitHub",
-              
+              value:  "view projects",
               href: "https://github.com/ishaka-precious",
             },
             {
