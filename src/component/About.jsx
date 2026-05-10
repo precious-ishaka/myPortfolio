@@ -121,7 +121,7 @@ const About = () => {
           </p>
           <p>
             Aside Writing Code, I Focus On Performance, Security, And User
-            Experience Because A Good Product Isn't Just About Functionality
+            Experience, Because A Good Product Isn't Just About Functionality
             It's Reliable And Safe For Everyone Who Uses It.
           </p>
         </div>
