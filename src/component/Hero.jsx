@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import ThemeContext from "../context/ThemeContext";
-import me from "../assets/reset.png";
+import me from "../assets/face.jpeg";
 
 const Hero = () => {
   const { theme } = useContext(ThemeContext);
@@ -51,7 +51,11 @@ const Hero = () => {
             <span className="bg-linear-to-r from-purple-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
               ISHAKA PRECIOUS
             </span>
-            , Software Developer Based In Nigeria.
+            , Software Developer{" "}
+             <span className="bg-linear-to-r from-purple-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+              &{" "}
+            </span>
+             Data Analyst Based In Nigeria.
           </h1>
 
           <p

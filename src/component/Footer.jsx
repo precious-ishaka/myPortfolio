@@ -152,7 +152,7 @@ export default function Footer() {
           </p>
        <p className="text-xs text-gray-600">
            Icons from 
-            <a href="https://icons8.com/" target="blank" className="text-purple-400 font-medium"> Icon8.com</a>
+            <a href="https://icons8.com/" target="blank" className="text-purple-400 font-medium"> Icons8.com</a>
           </p>
           <button
             onClick={scrollToTop}

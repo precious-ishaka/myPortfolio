@@ -17,9 +17,12 @@ import typescript from './icons8-typescript.svg'
 import angular from './angular_png.png'
 import elixir from './elixir_png.png'
 import python from './python_png.png'
+import excel from "./icons8-excel-50.svg"
+import git from "./icons8-git-50.svg"
 
 
 const skillsImages = [
+        {id: 0, image: excel, name: "Excel"},
        {id: 1, image: html, name: "HTML"},
     {id: 2, image: css, name: "CSS"},
      {id:3, image: python, name: "Python"},
@@ -35,7 +38,7 @@ const skillsImages = [
     {id: 13, image: express, name: "Express.js"},
     {id: 14, image: mongodb, name: "MongoDB"},
      {id: 15, image: postgresql, name: "PostgreSQL"},
-  
+       {id: 16, image: git, name: "Git"},
 ]
 
 
