@@ -52,10 +52,8 @@ const Hero = () => {
               ISHAKA PRECIOUS
             </span>
             , Software Developer{" "}
-             <span className="bg-linear-to-r from-purple-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
-              &{" "}
-            </span>
-             Data Analyst Based In Nigeria.
+            
+              Based In Nigeria.
           </h1>
 
           <p
@@ -71,7 +69,7 @@ const Hero = () => {
 
           <div ref={buttonsRef} className="mt-6 flex flex-wrap gap-4 opacity-0">
             
-             <a href="/public/ISHAKA_PRECIOUS_CV.docx"
+             <a href="/ISHAKA_PRECIOUS_CV.docx"
               download
               className="px-6 py-3 rounded-full bg-linear-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white transition"
             >
