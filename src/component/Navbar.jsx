@@ -24,7 +24,7 @@ const Navbar = () => {
         
         {/* Name / Logo */}
         <h2 to="/" className="font-bold text-lg tracking-widest">
-          PRECIOUS
+          ISHAKA
         </h2>
 
         {/* Links */}

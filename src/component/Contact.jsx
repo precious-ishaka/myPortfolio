@@ -91,7 +91,7 @@ const Contact = () => {
               icon: link,
               label: "LinkedIn",
              value: "precious-ishaka",
-              href: "www.linkedin.com/in/precious-ishaka-1b0344409",
+              href: "http://www.linkedin.com/in/precious-ishaka-1b0344409",
             },
             {
               icon: github,
@@ -189,13 +189,13 @@ const Contact = () => {
             </button>
 
             {status === "sent" && (
-              <p className="mt-3 text-center text-green-500 font-medium">
-                ✅ Message sent! I'll get back to you soon.
+              <p className="mt-3 text-center text-red-500 font-medium">
+                 Message not sent ! Email me directly, thank you for your patience.
               </p>
             )}
             {status === "error" && (
               <p className="mt-3 text-center text-red-500 font-medium">
-                ❌ Something went wrong. Please try again.
+                Something went wrong. Please try again.
               </p>
             )}
           </div>

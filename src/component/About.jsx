@@ -115,7 +115,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         <div ref={textRef} className="space-y-6 text-lg">
           <p>
-            Software Developer With Over A Year Of Hands-on Experience
+            Software Developer With Over Two Years Of Hands-on Experience
             Building Modern, Scalable Web Applications. I Turn Complex Problems
             Into Clean, Intuitive Solutions That Feel Effortless To Use.
           </p>
