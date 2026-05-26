@@ -62,8 +62,8 @@ const Hero = () => {
               theme === "light" ? "text-gray-600" : "text-gray-300"
             }`}
           >
-            I'm a Software developer from Lagos, Nigeria with a year of
-            experience building reliable web applications focused on security
+            I'm a Software developer from Lagos, Nigeria with two years of
+            experience building reliable web and mobile applications focused on security
             and usability.
           </p>
 
